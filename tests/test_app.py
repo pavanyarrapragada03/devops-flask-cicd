@@ -1,7 +1,12 @@
+import pytest
 from app import app
 
-def test_health_endpoint():
-    with app.test_client() as c:
-        r = c.get("/")
-        assert r.status_code == 200
-        assert r.get_json()["status"] == "ok"
+@pytest.fixture
+def client():
+    with app.test_client() as client:
+        yield client
+
+def test_home(client):
+    response = client.get('/')
+    assert response.status_code == 200
+    assert response.get_json() == {"message": "Hello CI/CD", "status": "ok"}
