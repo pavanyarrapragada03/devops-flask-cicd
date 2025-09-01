@@ -1,6 +1,6 @@
 # 🚀 Flask CI/CD Demo
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/devops-flask-cicd/ci.yml?branch=main&style=for-the-badge)
+![Build Status](https://img.shields.io/github/actions/workflow/status/pavanyarrapragada03/devops-flask-cicd/ci.yml?branch=main&style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue?style=for-the-badge&logo=docker)
 ![Python](https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
